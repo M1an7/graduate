@@ -51,7 +51,7 @@ Example for model-level shuffling on the MNIST dataset with alpha = 0.1, 10 loca
 python3  main_recon.py --dataset=MNIST --model=cnn --alpha=0.1 --local_ep=10 --num_users=10 --epochs=10 --mode="MODEL" 
 
 ```
-
+11
 #### Communication Cost (Figure 2 and 10)
 
 The experiment can be run using:
