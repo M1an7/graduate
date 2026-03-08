@@ -1,0 +1,33 @@
+[Vanilla FL] SIA accuracy : 41.61 %
+[Reconstructed Models (Section 5)] SIA accuracy : 25.27 %
+[Proposed Solution (Alg. 1)] SIA accuracy : 10.0 %
+[Vanilla FL] Training accuracy of the joint model: 61.85%
+[Vanilla FL] Testing accuracy of the joint model: 62.63%
+[Proposed Solution (Alg. 1)] Training accuracy of the joint model: 59.99%
+[Proposed Solution (Alg. 1)] Testing accuracy of the joint model: 60.33%
+------
+
+Experimental details:
+    Model     : cnn
+    Optimizer : sgd
+    Learning  : 0.01
+    Global Rounds   : 10
+
+    Federated parameters:
+   Realistic dataset for Non-IID setting:MNIST has 10 classes
+   Level of non-iid data distribution:0.1
+    Number of users  : 10
+    Fraction of users  : 1
+    Local Batch size   : 64
+    Local Epochs       : 10
+
+MODE =  MODEL
+MAX RUNS (actually executed) =  5
+Initial SIA accuracy: 46.986
+After reconstruction SIA accuracy: 22.566
+SIA accuracy on proposed defense: 10.0
+SHADOW MODL PERCN:  0.05
+with db=  MNIST
+users =  10
+alpha = 0.1
+Local Epochs= 10
